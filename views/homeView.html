@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Stripe Payment</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- load fontawesome -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <style>
+        body {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <h1><span class="fa fa-lock"></span> Stripe Payment</h1>
+
+            <h2>Iphone 12 Pro</h2>
+            <form method="post" action="/createItem">
+                <button class="btn btn-primary btn-lg" type="submit">Buy $100</button>
+            </form>
+            <h2>View Subscriptions</h2>
+            <form method="get" action="/">
+                <button class="btn btn-primary btn-lg" type="submit">View All</button>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
