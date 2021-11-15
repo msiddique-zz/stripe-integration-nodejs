@@ -24,7 +24,7 @@ Clone and open code in editor and go to .env<br /><br />
 ### 3- Edit the .env file
 
 Go to mySql and create a database <br/>
-Paste your databse name,username and db_password in .env file<br/><br/>
+Paste your database name,username and db_password in .env file<br/><br/>
 
 ### 4- Edit the .env file
 
