@@ -19,11 +19,12 @@ Go to `https://dashboard.stripe.com/register` and signup<br /><br />
 
 ### 2- Clone this github-repository
 
-Clone and open code in editor and go to .env<br /><br />
+Clone and open code in editor<br /><br />
 
 ### 3- Edit the .env file
 
-Go to mySql and create a database <br/>
+Rename '.env-sample' file to '.env' 
+Now go to mySql and create a database <br/>
 Paste your database name,username and db_password in .env file<br/><br/>
 
 ### 4- Edit the .env file
