@@ -62,7 +62,7 @@ Now copy the first forwarding link i.e: 'https://xxx-xxx-xxx.ngrok.io'
 Go to `https://dashboard.stripe.com/`. Now go developer account <br />
 Go to webhooks tab. Click on Add Endpoint and paste the url copied from ngrok. Also add '/webhooks'at the end of link <br />
 So your link will look like this 'https://xxx-xxx-xxx.ngrok.io/webhooks'
-Now click on Select Events. Selcet 'Payment Intent' option and click on 'select all event'<br />
+Now click on Select Events. Select 'Payment Intent' option and click on 'select all event'<br />
 Now click on button "Add Events" 
 
 ### 9- Run the code
