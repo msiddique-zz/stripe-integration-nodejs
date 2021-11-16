@@ -19,13 +19,12 @@ Go to `https://dashboard.stripe.com/register` and signup<br /><br />
 
 ### 2- Clone this github-repository
 
-Clone and open code in editor<br /><br />
+Clone and open code in editor and go to .env<br /><br />
 
 ### 3- Edit the .env file
 
-Rename '.env-sample' file to '.env' 
-Now go to mySql and create a database <br/>
-Paste your database name,username and db_password in .env file<br/><br/>
+Go to mySql and create a database <br/>
+Paste your databse name,username and db_password in .env file<br/><br/>
 
 ### 4- Edit the .env file
 
@@ -48,16 +47,32 @@ Run this code in terminal <br /><br />
 npx sequelize-cli db:migrate
 ```
 
-### 7- Run the code
+### 7- Webhook the ngrok
 
-Now run this command in terminal <br /><br />
+Open 'ngrok' in your local machine and run this code in ngrok terminal <br /><br />
+
+```
+ngrok http 3000
+```
+
+Now copy the first forwarding link i.e: ' https://xxx-xxx-xxx.ngrok.io'
+
+### 8- Add Endpoint in Stripe Account
+
+Go to `https://dashboard.stripe.com/`. Now go developer account <br />
+Go to webhooks tab. Click on Add Endpoint and paste the url copied from ngrok <br />
+Now click on Select Events. Selcet 'Payment Intent' option and click on 'select all event'<br />
+Now click on button "Add Events"
+
+### 9- Run the code
+
+Now go to your code and run this command in terminal <br /><br />
 
 ```
 node app.js
 ```
 
-### 8- Open into browser
+### 10- Open into browser
 
 Open a browser and go to `http://localhost:3000/`.<br />
 App will run.Yayyyy.<br /><br/>
-
