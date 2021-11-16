@@ -8,7 +8,7 @@ const db = require('./config/db.config');
 const Payment = db.user
 
 const app = express();
-const port = 4242;
+const port = 3000;
 const router = express.Router();
 
 
